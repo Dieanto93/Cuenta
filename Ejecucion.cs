@@ -23,6 +23,12 @@ namespace Cuenta
             persona2.setEdad(44);
             persona2.setIdentificacion("171661445");
             persona2.ImprimirDatos();
+            Persona persona3 = new Persona();
+            persona3.setNombre("Diego");
+            persona3.setApellido("Almeida");
+            persona3.setEdad(29);
+            persona3.setIdentificacion("1003623301");
+            persona3.ImprimirDatos();
 
         }
     }
